@@ -1,0 +1,145 @@
+/*Reset*/
+html,body,div,span,object,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,address,code,
+img,small,strong,dl,dt,dd,ol,ul,li,fieldset,form,label{
+                margin:0;
+		padding:0;
+		border:0;
+		outline:0;
+		font-size:100%;
+		vertical-align:baseline;
+		background:transparent;
+}
+body{
+	line-height:1.5;
+	font-family: helvetica,arial,sans-serif;
+
+}
+ol,ul{
+ list-style:none;
+}
+a{
+	text-decoration:none;
+}
+/* End Reset*/
+.wrapper{
+	width:80%;
+	margin:auto;
+
+}
+/*header begins here */
+.header{
+	height:30%;
+	background: -webkit-linear-gradient(#f99849, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#f99849, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#f99849, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#f99849, white); /* Standard syntax (must be last) */
+
+}
+#user{
+	float:right;
+ 	margin-top:20px;
+}
+.header1 h2{
+ position:absolute;
+ top:10px;
+ left:40%;
+ width:24%;
+
+}
+
+.header2 a{
+	float:left;
+	padding-right:15px;
+	padding-left:15px;
+	margin-top:10px;
+	border-right:3px solid;
+	border:3px outset #d6d7db;
+	background-color:#d6d7db;
+	color:black;
+	margin-bottom:10px;
+    display:inline-block;
+}
+.header2 a{
+ display:block;
+}
+.header2 a:hover{
+	color:white;
+	background-color:blue;
+}
+#Search{
+	clear:both;
+	margin-left:5%;
+	margin-bottom:10px;
+}
+#Search #i-search{
+   height:35px;
+   width:50%;
+   border-radius:5px;
+   margin-left:20%;
+}
+
+/*header ends here */
+/*main is here*/
+.slider_book{
+	height:250px;
+ 	border: 3px dotted red;
+ 	margin-bottom:1%;
+}
+.topbook
+{
+	height:300px;
+	float:left;
+	width:20%;
+    border:3px solid red;
+
+}
+.showbook{
+	float:right;
+	width:76%;
+    height:400px;
+    border:3px dotted green;
+	margin-bottom:5%;
+}
+.showbook li
+{
+	float:left;
+	margin-left:5%;
+}
+/*main ends here*/
+/*contain*/
+.slider_book{
+	height:300px;
+
+}
+.slider_book embed{
+	width:100%;
+	height:250px;
+}
+.contain{
+	clear:both;
+	margin-top:1%;
+}
+/*footer is here*/
+footer{
+	clear:both;
+	height:280px;
+	background-color:#0f1e2c;
+}
+
+footer a,h4{
+	color:#c4baba;
+}
+footer a:hover{
+	color:#488ac4
+}
+.DHBK{
+	float:left;
+}
+.connect,.DHBK{
+	width:30%;
+	margin-top:20px;
+}
+.connect{
+	float:right;
+	margin-right:20%;
+}
